@@ -91,14 +91,20 @@ function Lib:CreateWindow(Logo)
 
 	local Tab = {}
 
-	function Tab:CreateTab()
+	function Tab:CreateTab(TabPos)
+        local pos = nil
+		if TabPos == "Tab1" then
+              pos = "0.0180000048, 0, 0.214000002, 0"
+        elseif TabPos == "Tab2"
+              
+        end
 		local ImageButton = Instance.new("ImageButton")
 
 		ImageButton.Parent = Frame
 		ImageButton.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
 		ImageButton.BackgroundTransparency = 1.000
 		ImageButton.BorderSizePixel = 0
-		ImageButton.Position = UDim2.new(0.0180000048, 0, 0.214000002, 0)
+		ImageButton.Position = UDim2.new(pos)
 		ImageButton.Size = UDim2.new(0, 26, 0, 27)
 		ImageButton.Image = "rbxassetid://7072717697"
 		ImageButton.ImageColor3 = Color3.fromRGB(0, 0, 0)
