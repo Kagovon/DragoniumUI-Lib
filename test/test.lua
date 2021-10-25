@@ -89,7 +89,7 @@ function Lib:CreateWindow(Logo)
 
 	local Tab = {}
 
-	function Tab()
+	function Tab:CreateTab()
 		local ImageButton = Instance.new("ImageButton")
 
 		ImageButton.Parent = Frame
