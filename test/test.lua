@@ -102,8 +102,8 @@ function Lib:CreateWindow(Logo)
 		ImageButton.ImageColor3 = Color3.fromRGB(0, 0, 0)
 	end
 
-return Tab
+return Tab;
 end
 
-return Lib
+return Lib;
 
