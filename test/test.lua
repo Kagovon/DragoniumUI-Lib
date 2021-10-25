@@ -17,6 +17,8 @@ function Lib:CreateWindow(Logo)
 	Frame.Position = UDim2.new(0.5, 0, 0.5, 0)
 	Frame.Size = UDim2.new(0, 455, 0, 294)
 
+	UIListLayout.Parent = Frame
+	UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
 	UICorner.CornerRadius = UDim.new(0, 4)
 	UICorner.Parent = Frame
 
