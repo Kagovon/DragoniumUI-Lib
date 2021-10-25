@@ -94,7 +94,7 @@ function Lib:CreateWindow(Logo)
 	function Tab:CreateTab(TabPos)
         local pos = nil
 		if TabPos == "Tab1" then
-              pos = "0.0180000048, 0, 0.214000002, 0"
+              pos = 0.0180000048, 0, 0.214000002, 0
         elseif TabPos == "Tab2"
               
         end
